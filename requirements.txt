@@ -1,0 +1,25 @@
+# ==========================================
+# Bangla Voice Clone - Python Requirements
+# ==========================================
+
+# Web framework
+flask==3.0.3
+flask-cors==4.0.1
+
+# TTS engine (Coqui XTTS v2)
+TTS==0.22.0
+
+# Audio processing
+librosa==0.10.2
+soundfile==0.12.1
+numpy==1.26.4
+scipy==1.13.0
+
+# Utilities
+requests==2.32.3
+tqdm==4.66.4
+
+# PyTorch (CPU build — lighter for Colab free tier)
+# For GPU support, replace with: torch==2.3.0+cu121
+torch==2.3.0
+torchaudio==2.3.0
